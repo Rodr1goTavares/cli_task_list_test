@@ -3,7 +3,7 @@ package crudComBlocoDeNotas.taskDatabase.folders;
 import java.io.File;
 
 public class TaskFolder {
-    private static File taskFolder = new File("C:/users/rorik/desktop/taskFolder");
+    private static File taskFolder = new File("C:/users/yourUser/desktop/taskFolder");
 
     public static File getTaskFolder(){
         if(!verifyTaskFolder()){
